@@ -17,7 +17,6 @@ import android.widget.ImageView;
 public class BodyPartFragment extends Fragment
 {
 
-
     public BodyPartFragment()
     {
         // Required empty public constructor

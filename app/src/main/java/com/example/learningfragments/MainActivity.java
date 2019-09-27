@@ -18,5 +18,8 @@ public class MainActivity extends AppCompatActivity
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.add(R.id.body_part_frame, new BodyPartFragment());
         ft.commit();
+
+        FragmentTransaction mft = getSupportFragmentManager().beginTransaction();
+
     }
 }
